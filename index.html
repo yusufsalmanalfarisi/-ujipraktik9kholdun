@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <!--javascript-->
+    <script
+    src="https//cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+
+    <a class="navbar-brand" href="#">MyWebsite</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+        
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+    </div>
+</div>
+    </nav>
+    <!--html-->
+
+    <section id="home" class="hero">
+        <div class="container">
+
+            <h1 class="display-4">Website Profil</h1>
+            <p class="lead">Ujian Praktik Membuat Webasite</p>
+
+            <a href="#about" class="btn btn-light mt-3">Mulai</a>
+
+        </div>
+    </section>
+
+
+    <section id="about" class="about py-5">
+        <div class="container text-center">
+
+            <h2 class="mb-4">Tentang Saya</h2>`
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Simple_Stick_Figure.svg">
+
+            <p>
+                Halo! Saya siswa kelas 9 yang sedang belajar membuat website menggunakan HTML dan Bootstrap.
+                Website ini dibuat untuk ujian praktik informatika.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="gallery pu-5">
+        <div class="container">
+
+            <h2 class="text-center mb-4">Gallery</h2>
+
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <img src="https://www.jotform.com/blog/wp-content/uploads/2022/02/niko-photos-tGTVxeOr_Rs-unsplash.jpg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Foto 1</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnVnZ0g-VFLD7zdYfkhKT2L5JGB4y5NtZXfA&s">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Foto 2</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <img src="https://i5.walmartimages.com/seo/Great-Value-1-Low-fat-Chocolate-Milk-Gallon-Plastic-Jug-128-Fl-Oz_addfd6e0-ef78-44cc-a103-7fc0552934d6.6e1af96b00d0eff2172e9543b25149b4.jpeg">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Foto 3</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact py-5">
+        <div class="conmtainer">
+
+            <h2 class="text-center mb-4">Contact</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+
+                    <form class="bg-white p-4 rounded text-dark">
+
+                        <div class="mb-3">
+                            <label>Nama</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Pesan</label>
+                        <textarea class="form-control"></textarea>
+                        </div>
+
+                        <button class="btn btn-custom">Kirim</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!--css-->
+<style>
+
+    body{
+        scroll-behavior:smooth;
+    }
+
+
+    .hero{
+        background: linear-gradient(135deg,#4facfe,#00f2fe) ;
+        color:white;
+        padding:120px 0;
+        text-align:center
+    }
+
+    .about{
+        background:#f8f9fa;
+    }
+
+
+    .gallery{
+        background:#eef6ff;
+    }
+
+    .gallery img{
+        height:200px;
+        object-fit:cover;
+    }
+
+    .contact{
+        background:linear-gradient(135deg,#667eea,#764ba2);
+        color:white;
+    }
+
+
+    .btn-custom{
+        background:#ff7b00;
+        color:white
+    }
+
+    .btn-custom-hover{
+        background:#e66a00;
+    }
+
+
+    footer{
+        background:#222;
+    }
+
+</style>
+
+<!--footer-->
+<footer class="text-center text-white p-3">
+    <p>2026 Website Ujian Praktik</p>
+</footer>
+
+</body>
+</html>
